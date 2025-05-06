@@ -17,5 +17,5 @@ def add(*args, **kwargs):
 
 add(1, 2, 3, 4, 5, name="John", age=30)  # Output: name: John, age: 30
 print(add(1, 2, 3, 4, 5, name="John", age=30))  # Output: 15
-
+add(name="John", age=30 , address = "New York") # Output: name: John, age: 30, address: New York
 #So args take up a tuble as input and kwargs take up a dictionary as input.
