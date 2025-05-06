@@ -11,4 +11,18 @@ print(add(2,3))
 #map function
 
 num = [1,2,2,3,4,3]
-sq = list(map(lambda x: x**2, num)) #map takes a function and a list as input and applies the function to each element of the list. 
+sq = list(map(lambda x: x**2, num))
+print(sq)
+
+#filter function
+
+num = [1,2,2, 3,4,3]
+even = list(filter(lambda x: x%2==0, num))
+print(even)
+
+#reduce function
+
+from functools import reduce    
+num = [1,2,2,3,4,3]
+sum = reduce(lambda x,y: x+y, num)
+print(sum)
